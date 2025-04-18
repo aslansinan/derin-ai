@@ -1,0 +1,79 @@
+.prepare-ai-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 45px;
+    padding-right: 45px;
+
+    .prepare-ai-header {
+        display: flex;
+        align-items: flex-start;
+        background-color: white;
+        width: 100%;
+        border-radius: 15px;
+        width: 700px;
+        padding: 15px;
+        margin: 20px 0 0;
+
+        .anticon {
+            background-color: var(--color-primary);
+            padding: 10px;
+            margin-right: 10px;
+            border-radius: 50%;
+            color: white;
+        }
+
+        h2 {
+            font-weight: 500;
+        }
+    }
+
+
+    .prepare-ai-content {
+        background-color: white;
+        width: 100%;
+        border-radius: 15px;
+        padding: 20px;
+        height: 600px;
+        margin: 20px 0 20px;
+
+        .prepare-ai-select {
+
+            .select-item {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                margin-top: 20px;
+
+                .ant-select {
+                    width: 250px;
+
+                    .ant-select-selector {
+
+                        .ant-select-selection-item {
+                            display: flex;
+                            align-items: center;
+                            gap: 5px;
+                        }
+                    }
+                }
+
+                h3 {
+                    font-weight: 400;
+                    color: var(--color-primary);
+                }
+
+            }
+        }
+    }
+}
+
+
+.ant-select-dropdown {
+    .ant-select-item-option-content {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+}
